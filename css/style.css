@@ -1,0 +1,217 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    background-color: rgb(53, 93, 224);
+}
+.container{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+  width: 50px;  
+}
+.discordlogo{
+    width: 50px;
+}
+
+.nav{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    width: 500px;  
+    color: aliceblue;
+}
+.nav li{
+    display: inline;
+
+}
+.action{
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;  
+    margin-left: 100px;
+    
+}
+.accedi{
+    display: inline;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.middle{
+    display: inline-block;
+    color: white;
+}
+.scarica{
+    display: inline;
+    height: 10px;
+    width: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+.container1{
+    background-image: url(../img/jumbo.png);
+    display: flex;
+    min-height: 300px;
+    background-color: rgb(0, 0, 133);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.jumbo{
+    /* background-color: rgb(224, 135, 232); */
+    height: 500px;
+    width: 500px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    margin: 25px;
+}
+.item1{
+    /* background-color:rgb(65, 142, 247); */
+    height: 435px;px ;
+    width: 600px;  
+}
+
+.item2{
+    /* background-color:rgb(65, 142, 247); */
+    height:300px ;
+    width: 600px;
+}
+
+
+.item3{
+    background-color:rgb(65, 142, 247);
+    height:300px ;
+    width: 600px;
+}
+
+.item4{
+    /* background-color:green; */
+    height: 800px;
+    width: 1000px;
+    margin: 25px 0;
+}
+
+.info1{
+    /* background-color:rgb(245, 195, 203); */
+    height: 300px;
+    width: 350px;
+}
+
+.info2{
+    /* background-color:rgb(245, 195, 203); */
+    height: 300px;
+    width: 350px;
+}
+
+.img2{
+
+}
+
+.info3{
+    /* background-color:rgb(245, 195, 203); */
+    height: 300px;
+    width: 350px;
+}
+
+
+
+.box{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-height: 560px;
+    margin: 25px 0;
+    padding: 10px;
+   
+}
+/* .grey{
+    background-color: rgb(196, 192, 192);
+} */
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: rgb(196, 192, 192);
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color:rgb(36, 49,42);
+    
+}
+.pink3{
+    /* background-color:rgb(225, 134, 131); */
+    height: 500px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.blue2{
+    /* background-color:aquamarine; */
+    height: 500px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    /* border: 1px dashed white; */
+}
+.grey2{
+    width: auto;
+    height: 2px;
+    background-color: grey;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    margin:0 auto;
+    background-color:rgb(36, 49,42); 
+}
+.blue3{
+    display: flex;
+    background-color: rgb(160,252,214);
+    justify-content:space-between;
+    align-items:center;
+    width: 1050px;
+    height: 70px;
+    
+}
+.logo2{
+    background-color: rgb(244,185, 194);
+    height: 25px;
+    margin-left: 10px;
+}
+.bottone{
+    background-color: rgb(244,185, 194);
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
+.footer1{
+    display:block;
+    color:rgb(85, 52, 227);
+}
